@@ -20,14 +20,18 @@ public class TuberiasInstantiator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-
-        if (timer > instantiateCooldown)
+        if (!GameManager.instance.isDead)
         {
-            timer = 0;
-            positionY = Random.Range(-2.2f, 2.5f);
-            Instantiate(tuberiasPrefab);
-            tuberiasPrefab.transform.position = new Vector3(positionX, positionY, tuberiasPrefab.transform.position.z);
+            timer += Time.deltaTime;
+
+            if (timer > instantiateCooldown)
+            {
+                timer = 0;
+                positionY = Random.Range(-2.2f, 2.5f);
+                Instantiate(tuberiasPrefab);
+                tuberiasPrefab.transform.position = new Vector3(positionX, positionY, tuberiasPrefab.transform.position.z);
+            }
         }
+
     }
 }

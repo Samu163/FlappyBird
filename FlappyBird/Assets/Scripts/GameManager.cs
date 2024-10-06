@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public GameObject deathScene;
     public int highScore = 0;
     public int score = 0;
     public bool isDead = false;
@@ -15,18 +17,19 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         instance = this;
+        deathScene.SetActive(false);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+
     }
 
     public void AddPoints()
     {
         score++;
-        Debug.Log(score);
         if (score >= highScore)
         {
             highScore = score;
@@ -40,5 +43,11 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         isDead = true;
+        deathScene.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

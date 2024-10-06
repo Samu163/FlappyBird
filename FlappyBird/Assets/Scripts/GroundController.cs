@@ -22,10 +22,13 @@ public class GroundController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _spriteRenderer.size = new Vector2(_spriteRenderer.size.x + velocity * Time.deltaTime, _spriteRenderer.size.y);
-        if (_spriteRenderer.size.x > size)
+        if (!GameManager.instance.isDead)
         {
-            _spriteRenderer.size = _startSize;
-        }
+            _spriteRenderer.size = new Vector2(_spriteRenderer.size.x + velocity * Time.deltaTime, _spriteRenderer.size.y);
+            if (_spriteRenderer.size.x > size)
+            {
+                _spriteRenderer.size = _startSize;
+            }
+        }   
     }
 }

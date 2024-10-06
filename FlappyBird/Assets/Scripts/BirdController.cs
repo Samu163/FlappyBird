@@ -21,7 +21,7 @@ public class BirdController : MonoBehaviour
     void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && !GameManager.instance.isDead)
         {
             birdRigidBody.velocity = Vector2.up * speed;
         }

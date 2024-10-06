@@ -17,11 +17,18 @@ public class TuberiasController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tuberiaRigidbody.velocity = Vector2.left * speed;
-
-        if(transform.position.x < -6)
+        if (!GameManager.instance.isDead)
         {
-            Destroy(this.gameObject);
+            tuberiaRigidbody.velocity = Vector2.left * speed;
+
+            if (transform.position.x < -6)
+            {
+                Destroy(this.gameObject);
+            }
         }
+        else {
+            tuberiaRigidbody.velocity = new Vector2(0,0);
+        }
+
     }
 }
