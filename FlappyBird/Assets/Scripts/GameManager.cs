@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public int highScore = 0;
     public int score = 0;
     public bool isDead = false;
+    public AudioSource pointFX;
 
 
     // Start is called before the first frame update
@@ -29,6 +30,9 @@ public class GameManager : MonoBehaviour
         {
             highScore = score;
         }
+
+        pointFX.Play();
+
     }
 
     public void Death()
