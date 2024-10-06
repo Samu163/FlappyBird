@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\didac\\Documents\\GitHub\\FlappyBird\\FlappyBird\\",
+  "WorkspaceRootPath": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|c:\\users\\didac\\documents\\github\\flappybird\\flappybird\\assets\\scripts\\birdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\birdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|c:\\users\\samuel\\documents\\github\\plataformas\\flappybird\\flappybird\\assets\\scripts\\groundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BirdController.cs",
-              "DocumentMoniker": "C:\\Users\\didac\\Documents\\GitHub\\FlappyBird\\FlappyBird\\Assets\\Scripts\\BirdController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BirdController.cs",
-              "ToolTip": "C:\\Users\\didac\\Documents\\GitHub\\FlappyBird\\FlappyBird\\Assets\\Scripts\\BirdController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BirdController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBwAAABeAAAAAAAAAA==",
+              "Title": "GroundController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\GroundController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GroundController.cs",
+              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\GroundController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GroundController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T09:40:40.971Z",
+              "WhenOpened": "2024-10-06T09:54:49.761Z",
               "EditorCaption": ""
             }
           ]
