@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public int highScore = 0;
     public int score = 0;
+    public bool isDead = false;
 
 
     // Start is called before the first frame update
@@ -18,17 +19,21 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Y))
+       
+    }
+
+    public void AddPoints()
+    {
+        score++;
+        if (score >= highScore)
         {
-            score++;
-            if(score >= highScore)
-            {
-                highScore = score;
-            }
+            highScore = score;
         }
-        else if (Input.GetKeyUp(KeyCode.O))
-        {
-            score = 0;
-        }
+    }
+
+    public void Death()
+    {
+        score = 0;
+        isDead = true;
     }
 }

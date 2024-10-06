@@ -267,7 +267,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -744,6 +744,7 @@ GameObject:
   - component: {fileID: 583098932}
   - component: {fileID: 583098935}
   - component: {fileID: 583098936}
+  - component: {fileID: 583098937}
   m_Layer: 0
   m_Name: Mobile - Flappy Bird - Version 12 Sprites_74
   m_TagString: Untagged
@@ -881,6 +882,51 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &583098937
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583098931}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.17, y: 0.12}
+    newSize: {x: 0.17, y: 0.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.11, y: 0.12}
+  m_EdgeRadius: 0
 --- !u!1 &1068255692
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,7 +953,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1068255692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33f61c209e6e0f94a969c8b63073714d, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d0c97a34b9551243a870498081d29c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   highScore: {fileID: 1218217777}
@@ -1426,11 +1472,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1853797140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2596183dc9915d243a9149e5ffa53098, type: 3}
+  m_Script: {fileID: 11500000, guid: 21ab0a8bf450dd741bf3f799bc9cba2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   highScore: 0
   score: 0
+  isDead: 0
 --- !u!1 &1982783643
 GameObject:
   m_ObjectHideFlags: 0

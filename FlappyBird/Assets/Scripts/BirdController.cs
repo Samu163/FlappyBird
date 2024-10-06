@@ -30,5 +30,15 @@ public class BirdController : MonoBehaviour
 
     }
 
-    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameManager.instance.Death();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        GameManager.instance.AddPoints();
+    }
+
+
 }
