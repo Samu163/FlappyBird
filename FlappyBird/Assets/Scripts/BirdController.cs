@@ -5,8 +5,11 @@ using UnityEngine;
 public class BirdController : MonoBehaviour
 {
 
-    public Vector3 force;
+    
+    public float speed;
+    public float rotationSpeed;
     public Rigidbody2D birdRigidBody;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -17,9 +20,15 @@ public class BirdController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+
+        if(Input.GetKeyDown(KeyCode.Space))
         {
-            birdRigidBody.AddForce(force);
+            birdRigidBody.velocity = Vector2.up * speed;
         }
+
+        transform.rotation = Quaternion.Euler(0, 0, birdRigidBody.velocity.y * rotationSpeed);
+
     }
+
+    
 }
