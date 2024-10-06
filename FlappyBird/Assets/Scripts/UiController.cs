@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class UiController : MonoBehaviour
 {
-    public TextMeshPro highScore;
-    public TextMeshPro score;
+    public TextMeshProUGUI highScore;
+    public TextMeshProUGUI score;
 
 
 
     public void Update()
     {
-        
+        highScore.text = GameManager.instance.highScore.ToString();   
+        score.text = GameManager.instance.score.ToString();   
     }
 }
