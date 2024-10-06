@@ -25,7 +25,7 @@ public class TuberiasInstantiator : MonoBehaviour
         if (timer > instantiateCooldown)
         {
             timer = 0;
-            positionY = Random.Range(-2.5f, 7.3f);
+            positionY = Random.Range(-2.2f, 2.5f);
             Instantiate(tuberiasPrefab);
             tuberiasPrefab.transform.position = new Vector3(positionX, positionY, tuberiasPrefab.transform.position.z);
         }
