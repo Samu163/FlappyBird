@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     public void AddPoints()
     {
         score++;
+        Debug.Log(score);
         if (score >= highScore)
         {
             highScore = score;
