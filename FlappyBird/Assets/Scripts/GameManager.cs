@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public bool isDead = false;
     public AudioSource pointFX;
+    public AudioSource deathFX;
 
 
     // Start is called before the first frame update
@@ -42,8 +43,14 @@ public class GameManager : MonoBehaviour
     public void Death()
     {
         score = 0;
+       
+        if(!isDead)
+        {
+           deathFX.Play();
+        }
         isDead = true;
         deathScene.SetActive(true);
+        
     }
 
     public void RestartGame()
