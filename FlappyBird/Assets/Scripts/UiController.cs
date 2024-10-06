@@ -12,7 +12,7 @@ public class UiController : MonoBehaviour
 
     public void Update()
     {
-        highScore.text = GameManager.instance.highScore.ToString();   
+        highScore.text = PlayerPrefs.GetInt("Highscore",0).ToString();   
         score.text = GameManager.instance.score.ToString();   
     }
 }

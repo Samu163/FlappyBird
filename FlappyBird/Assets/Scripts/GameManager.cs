@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
         deathScene.SetActive(false);
+        
+
 
     }
 
@@ -31,9 +33,9 @@ public class GameManager : MonoBehaviour
     public void AddPoints()
     {
         score++;
-        if (score >= highScore)
+        if (score >= PlayerPrefs.GetInt("Highscore", 0))
         {
-            highScore = score;
+            PlayerPrefs.SetInt("Highscore", score);
         }
 
         pointFX.Play();
@@ -50,7 +52,7 @@ public class GameManager : MonoBehaviour
         }
         isDead = true;
         deathScene.SetActive(true);
-        
+
     }
 
     public void RestartGame()
