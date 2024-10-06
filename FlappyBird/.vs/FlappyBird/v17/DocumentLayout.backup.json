@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|c:\\users\\samuel\\documents\\github\\plataformas\\flappybird\\flappybird\\assets\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|solutionrelative:assets\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|c:\\users\\samuel\\documents\\github\\plataformas\\flappybird\\flappybird\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|c:\\users\\samuel\\documents\\github\\plataformas\\flappybird\\flappybird\\assets\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|solutionrelative:assets\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\assets\\scripts\\birdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\birdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|c:\\users\\samuel\\documents\\github\\plataformas\\flappybird\\flappybird\\assets\\scripts\\tuberiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tuberiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\assets\\scripts\\tuberiasinstantiator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tuberiasinstantiator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3EF6E53-88BE-20EB-65C7-C65330B49779}|Assembly-CSharp.csproj|C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\assets\\scripts\\groundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,38 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\GameManager.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\GameManager.cs",
-              "RelativeToolTip": "Assets\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T10:38:38.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UiController.cs",
               "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\UiController.cs",
               "RelativeDocumentMoniker": "Assets\\UiController.cs",
               "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\UiController.cs",
               "RelativeToolTip": "Assets\\UiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T10:36:33.193Z",
+              "WhenOpened": "2024-10-06T10:44:11.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\GameManager.cs",
+              "RelativeToolTip": "Assets\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T10:43:56.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BirdController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\BirdController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BirdController.cs",
+              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\BirdController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BirdController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T10:35:56.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TuberiasController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\TuberiasController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TuberiasController.cs",
+              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\TuberiasController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TuberiasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T10:32:41.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TuberiasInstantiator.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\TuberiasInstantiator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TuberiasInstantiator.cs",
+              "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\TuberiasInstantiator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TuberiasInstantiator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T10:19:54.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GroundController.cs",
               "DocumentMoniker": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\GroundController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GroundController.cs",
               "ToolTip": "C:\\Users\\Samuel\\Documents\\GitHub\\Plataformas\\FlappyBird\\FlappyBird\\Assets\\Scripts\\GroundController.cs",
               "RelativeToolTip": "Assets\\Scripts\\GroundController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T09:54:49.761Z"
             }

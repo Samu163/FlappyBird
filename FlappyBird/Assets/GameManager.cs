@@ -12,12 +12,23 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        instance = this;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyUp(KeyCode.Y))
+        {
+            score++;
+            if(score >= highScore)
+            {
+                highScore = score;
+            }
+        }
+        else if (Input.GetKeyUp(KeyCode.O))
+        {
+            score = 0;
+        }
     }
 }
