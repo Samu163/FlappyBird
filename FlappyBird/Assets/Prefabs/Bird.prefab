@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2255975574132033129}
   - component: {fileID: 7678752380410922897}
   m_Layer: 0
-  m_Name: Mobile - Flappy Bird - Version 12 Sprites_74
+  m_Name: Bird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

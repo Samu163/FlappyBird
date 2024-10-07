@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TuberiasInstantiator : MonoBehaviour
+public class PipeInstantiator : MonoBehaviour
 {
-
-    public GameObject tuberiasPrefab;
+    public GameObject pipesPrefab;
     public float positionX;
     public float positionY;
     public float timer;
@@ -23,15 +22,13 @@ public class TuberiasInstantiator : MonoBehaviour
         if (!GameManager.instance.isDead)
         {
             timer += Time.deltaTime;
-
             if (timer > instantiateCooldown)
             {
                 timer = 0;
                 positionY = Random.Range(-2.2f, 2.5f);
-                Instantiate(tuberiasPrefab);
-                tuberiasPrefab.transform.position = new Vector3(positionX, positionY, tuberiasPrefab.transform.position.z);
+                Instantiate(pipesPrefab);
+                pipesPrefab.transform.position = new Vector3(positionX, positionY, pipesPrefab.transform.position.z);
             }
         }
-
     }
 }
