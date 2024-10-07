@@ -4,19 +4,16 @@ using UnityEngine;
 
 public class GroundController : MonoBehaviour
 {
-
     public float velocity = 1f;
-    public float size = 10f;
-        
-    SpriteRenderer _spriteRenderer;
-
-    private Vector2 _startSize;
+    public float size = 10f;      
+    private SpriteRenderer spriteRenderer;
+    private Vector2 startSize;
 
     // Start is called before the first frame update
     void Start()
     {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-        _startSize = new Vector2(_spriteRenderer.size.x, _spriteRenderer.size.y);
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        startSize = new Vector2(spriteRenderer.size.x, spriteRenderer.size.y);
     }
 
     // Update is called once per frame
@@ -24,10 +21,10 @@ public class GroundController : MonoBehaviour
     {
         if (!GameManager.instance.isDead)
         {
-            _spriteRenderer.size = new Vector2(_spriteRenderer.size.x + velocity * Time.deltaTime, _spriteRenderer.size.y);
-            if (_spriteRenderer.size.x > size)
+            spriteRenderer.size = new Vector2(spriteRenderer.size.x + velocity * Time.deltaTime, spriteRenderer.size.y);
+            if (spriteRenderer.size.x > size)
             {
-                _spriteRenderer.size = _startSize;
+                spriteRenderer.size = startSize;
             }
         }   
     }

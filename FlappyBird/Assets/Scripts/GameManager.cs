@@ -19,9 +19,6 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
         deathScene.SetActive(false);
-        
-
-
     }
 
     // Update is called once per frame
@@ -37,22 +34,18 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Highscore", score);
         }
-
         pointFX.Play();
-
     }
 
     public void Death()
     {
-        score = 0;
-       
+        score = 0;       
         if(!isDead)
         {
            deathFX.Play();
         }
         isDead = true;
         deathScene.SetActive(true);
-
     }
 
     public void RestartGame()

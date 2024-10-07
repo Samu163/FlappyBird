@@ -1661,7 +1661,7 @@ GameObject:
   - component: {fileID: 1364856256}
   - component: {fileID: 1364856255}
   m_Layer: 0
-  m_Name: TuberiasInstantiator
+  m_Name: PipeInstantiator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd2325012a7711c40acc1109eda33a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tuberiasPrefab: {fileID: 449395609804514612, guid: f1351253ff96619489416c1e6a199aa0,
+  pipesPrefab: {fileID: 449395609804514612, guid: f1351253ff96619489416c1e6a199aa0,
     type: 3}
   positionX: 5
   positionY: 0
